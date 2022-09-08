@@ -2,21 +2,35 @@ body
 {
     color: #333;
     text-align: center;
-    font-family: "Arial";
-    font-size: 16px;
+    font-family: "Calibri";
+    font-size: 18px;
     margin: 0;
     padding: 0;
 }
-#container
+#cabecera
 {
+    background-color: #33A;
+    box shadow: 0px 2px 20px 0px rgb(0,0,0,0.5);
     width: 70%;
+    color: white;
+    font-weight: bold;
     padding: 1em;
     text-align: left;
-    border: 1px solid #DDD;
+    border: 1px solid #D3DD;
     margin: 0 auto;
 }
 
+#cabecera #tagline
+{
+    
+    padding: 0 0 0 1em;
+    font font-weight: normal;
+    font-size: 0.8em;
+}
+
+
+
 #container h1
 {
-    font-size: 20px;
+    font-size: 30px;
 }
